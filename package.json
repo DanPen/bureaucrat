@@ -9,7 +9,11 @@
     "tsc:w": "tsc -w",
     "typings": "typings"
   },
-  "license": "UNLICENSED",
+  "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DanPen/chalan.git"
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "2.0.0-rc.0",
