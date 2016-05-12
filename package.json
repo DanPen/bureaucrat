@@ -14,7 +14,6 @@
     "type" : "git",
     "url" : "https://github.com/DanPen/chalan.git"
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "2.0.0-rc.0",
     "@angular/compiler": "2.0.0-rc.0",
