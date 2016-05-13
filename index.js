@@ -1,6 +1,6 @@
 var path = require('path');
 
-module.exports = function() {
+module.exports = function(port) {
   var express = require('express');
   var app = express();
   app.use('/node_modules', express.static(path.join(__dirname, '../')));
@@ -10,5 +10,5 @@ module.exports = function() {
     res.sendFile(__dirname + '/public/index.html')
   })
 
-  app.listen(3000);
+  app.listen(port);
 }
